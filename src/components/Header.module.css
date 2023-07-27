@@ -1,0 +1,13 @@
+.header {
+    background: #0D0D0D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    object-fit: cover;
+
+}
+
+.header img {
+    height: 3rem;
+}

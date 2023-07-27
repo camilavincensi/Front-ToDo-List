@@ -1,0 +1,66 @@
+.card {
+    display: flex;
+    margin: 1.5rem 22rem;
+    border: 1px solid #333333;
+    background: #262626;
+    padding: 1.5rem;
+    align-items: center;
+    border-radius: 8px;
+    justify-content: space-between;
+}
+
+.cardDone {
+    display: flex;
+    margin: 1.5rem 22rem;
+    background: #262626;
+    padding: 1.5rem;
+    align-items: center;
+    border-radius: 8px;
+    justify-content: space-between;
+}
+
+.content {
+    display: flex;
+    margin-right: 1rem;
+    align-items: center;
+}
+
+.content button {
+
+    margin-right: 1rem;
+    color: #4EA8DE;
+}
+
+.content button:hover {
+    color: #1E6F9F;
+}
+button {
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+
+}
+
+.trash {
+    color: #808080;
+    padding: 0.25rem;
+}
+
+.trash:hover {
+    background: #333333;
+    border-radius: 4px;
+    color: #E25858;
+}
+
+.check {
+    color: #5E60CE;
+}
+
+.check:hover{
+    color: #8284FA;
+}
+
+.done {
+    text-decoration: line-through;
+    color: #808080;
+}

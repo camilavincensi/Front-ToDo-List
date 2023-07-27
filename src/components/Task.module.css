@@ -1,0 +1,106 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 5rem 22rem 0 22rem;
+}
+
+.create {
+    color: #4EA8DE;
+}
+
+.done {
+    color: #8284FA;
+}
+
+.header p {
+    font-weight: bold;
+
+}
+.header span {
+    display: inline-flex;
+    margin: 0.5rem;
+    border-radius: 999px ;
+    background: #333333;
+    padding: 0.25rem 0.75rem;
+    color: #D9D9D9;
+    font-weight: bold;
+}
+
+.tasks {
+    margin: 1.5rem 22rem;
+    border-top: 1px solid #333333 ;
+    border-radius: 8px;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem;
+    font-size: 18px;
+    color: #808080;
+}
+
+.tasksNone {
+    visibility: hidden;
+    max-height: 0;
+}
+
+
+.tasks p:nth-child(2n) {
+    font-weight: bold;
+}
+
+.clipboard {
+    margin-bottom: 1rem;
+}
+
+.input {
+    width: 100%;
+    background: #262626;
+    border-radius: 8px;
+    line-height: 2.5;
+    color: #F2F2F2;
+    border: 0;
+    margin-right: 0.5rem;
+    height: 54px;
+    padding-left: 1rem;
+}
+
+.input:focus {
+    outline: transparent;
+    box-shadow: 0 0 0 1px #5E60CE;
+}
+
+
+.button {
+    background: #1E6F9F ;
+    color: #F2F2F2;
+    border-radius: 8px;
+    height: 54px;
+    padding: 0 1rem;
+    border: 0;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 0.05rem;
+
+    transition: background-color 0.1s;
+}
+
+.button:hover {
+    background: #4EA8DE;
+}
+
+.icon {
+    margin-left: 0.25rem;
+}
+
+.barForm {
+    display: flex;
+    padding-top: 1.5rem;
+    margin-left: 22rem;
+    margin-right: 22rem;
+    margin-top: calc(0px - 2.5rem - 6px);
+}
+
+
